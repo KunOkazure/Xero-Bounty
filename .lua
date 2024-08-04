@@ -37,7 +37,7 @@ getgenv().Configs = {
             }
         },
         ["Fruit"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 1.8,
             ["Skills"] = {
                 ["Z"] = {
@@ -58,13 +58,13 @@ getgenv().Configs = {
                     ["HoldTime"] = 0,
                 },
                 ["F"] = {
-                    ["Enable"] = false,
+                    ["Enable"] = true,
                     ["HoldTime"] = 0,
                 }
             }
         },
         ["Sword"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
