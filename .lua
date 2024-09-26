@@ -1,10 +1,10 @@
 getgenv().Configs = {
-    ["Team"] = "Marines", -- Pirates/Marines
+    ["Team"] = "Pirates", -- Pirates/Marines
     ["Auto Ken"] = true,
     ["Auto Buso"] = true,
     ["Auto turn on race v3"] = true,
     ["Auto turn on race v4"] = true,
-    ["FPS Boost"] = false,
+    ["FPS Boost"] = true,
     ["Click Time"] = 0.2,
     ["Bypass TP"] = true,
     ["Chat"] = {
@@ -14,17 +14,17 @@ getgenv().Configs = {
     ["Run When Low Health"] = {
         ["Enable"] = true,
         ["Health"] = 3500,
-        ["Come back"] = false
+        ["Come back"] = true
     },
-    ["Region"] = "Singapore", -- Singapore, United States, Germany, France, India, ??? ...
+    ["Region"] = "Germany", -- Singapore, United States, Germany, France, India, ??? ...
     ["Weapons"] = {
         ["Melee"] = {
             ["Enable"] = true,
-            ["Delay"] = 1.75,
+            ["Delay"] = 1.25,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1,
+                    ["HoldTime"] = 0,
                 },
                 ["X"] = {
                     ["Enable"] = true,
@@ -37,7 +37,7 @@ getgenv().Configs = {
             }
         },
         ["Fruit"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 1.8,
             ["Skills"] = {
                 ["Z"] = {
@@ -58,27 +58,27 @@ getgenv().Configs = {
                     ["HoldTime"] = 0,
                 },
                 ["F"] = {
-                    ["Enable"] = true,
+                    ["Enable"] = false,
                     ["HoldTime"] = 0,
                 }
             }
         },
         ["Sword"] = {
             ["Enable"] = true,
-            ["Delay"] = 1,
+            ["Delay"] = 1.25,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.2,
+                    ["HoldTime"] = 0,
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.5,
+                    ["HoldTime"] = 0,
                 }
             }
         },
         ["Gun"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 0.5,
             ["Skills"] = {
                 ["Z"] = {
@@ -96,7 +96,7 @@ getgenv().Configs = {
         ["Enable"] = true,
         ["Name"] = "Hutao", -- Hutao, Raiden, Ayaka, Yelan
         ["Custom Theme"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Text Color"] = Color3.fromRGB(231, 85, 88),
             ["Character Position"] = UDim2.new(0.563000023, 0, -0.174999997, 0)
         }
